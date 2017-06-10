@@ -1,0 +1,31 @@
+{
+  "name": "Freshsales",
+  "version": "0.1",
+  "description": "New user experience with Freshsales",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["jquery-1.10.2.min.js","content.js"],
+      "match_about_blank": true,
+      "run_at": "document_end"
+    }
+  ],
+  "icons" : {"128" : "icon.png"},
+  "background":{
+            "scripts":["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Freshsales",
+    "default_icon" : "icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    "myCss.css",
+    "myFrame.html",
+    "jquery-1.10.2.min.js",
+    "window1.html",
+    "window1.js"
+  ],
+  "permissions": ["tabs","https://mail.google.com/*","storage"],
+  "manifest_version": 2
+}

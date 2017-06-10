@@ -1,0 +1,23 @@
+.AO{
+  width: 100% !important;
+}
+.aeJ{
+  float: left !important;
+  width: 67% !important;
+}
+#myFrame{
+  background: #fbe98e;
+  position: fixed !important;
+  float: right !important;
+  width: 330px !important;
+  height: 800px;
+}
+.Freshsales-header{
+  top: 0px;
+  width: 100%;
+  background: white;
+}
+#close{
+  border-radius: 5px;
+  float: right;
+}
