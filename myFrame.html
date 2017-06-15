@@ -4,6 +4,7 @@
   <meta charset="utf-8"/>
   <title>myframe</title>
   <link rel="stylesheet" type="text/css" href="myCss.css">
+
 </head>
 <body>
   <header class="Freshsales-header">
@@ -13,7 +14,24 @@
   </header>
   <div>
     <br><br>
-    <center><h3>Your sales force needs a better CRM</h3></center>
+    <center><h3>Your sales force needs a better CRM</h3></center><br><br>
   </div>
+  <div id="options">
+    <center><button type="submit" id="signin_page"/>signin
+      <a target="_blank" style="text-decoration: none;" href= "https://www.freshworks.com/freshsales-crm/signup/"><button type="submit" />signup</a></center>
+  </div>
+  <div id="authentication">
+      <center><p style="display:inline-block;">Domain Name &nbsp;</p><input id="domain_name" type="text" placeholder="domain name"/></center>
+      <center><p style="display:inline-block;">&nbsp;&nbsp;&nbsp;Username &nbsp;&nbsp;</p><input id="username" type="text" placeholder="username or email"/></center>
+      <center><p style="display:inline-block;">&nbsp;&nbsp;&nbsp;Password &nbsp;&nbsp; </p><input id="password" type="password" placeholder="password"/></center><br>
+      <center><button type="submit" id="signin"/>signin </center>
+  </div>
+  <div id="after_login">
+    <center><h3>Now works will be simple.</h3></center>
+  </div>
+
+<script src="jquery-1.10.2.min.js"></script>
+<script src="myFrame.js"></script>
+
 </body>
 </html>

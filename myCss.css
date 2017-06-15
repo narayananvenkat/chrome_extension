@@ -18,6 +18,19 @@
   background: white;
 }
 #close{
-  border-radius: 5px;
+  height: 20px;
+  width: 20px;
   float: right;
+}
+
+#authentication input{
+  width: 180px;
+  height: 15px;
+  border-radius: 5px;
+}
+#authentication{
+  display: none;
+}
+#after_login{
+  display: none;
 }

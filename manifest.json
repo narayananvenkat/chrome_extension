@@ -21,11 +21,13 @@
   },
   "web_accessible_resources": [
     "myCss.css",
-    "myFrame.html",
     "jquery-1.10.2.min.js",
+    "myFrame.html",
+    "index.html",
+    "myFrame.js",
     "window1.html",
     "window1.js"
   ],
-  "permissions": ["tabs","https://mail.google.com/*","storage"],
+  "permissions": ["tabs","https://mail.google.com/*","https://*.freshsales.io/*","storage"],
   "manifest_version": 2
 }
